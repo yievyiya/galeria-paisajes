@@ -1,0 +1,224 @@
+body {
+  background: #02010a;
+	color: white;
+	font-size: 16px;
+	font-family: 'Dancing Script';
+  font-size: 14pt;
+}
+#contenido{
+  width: 900px;
+	margin: 0 auto;
+  min-height: 200px;
+}
+#cabecera{
+  background-color: #5b7989;
+  text-shadow: 2px 2px 2px #02010a;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  border-radius: 10px 10px 0 0;
+  text-indent: 15px;
+}
+#Menu_principal{
+  color: white;
+  justify-content:space-between;
+  text-shadow: 2px 2px 2px #02010a;
+  padding: 20px;
+  font-size: 18pt;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+#paisaje1{
+  background-color: #82c3a6;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+.paisaje1 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  transition: transform 1s;
+  filter: drop-shadow(3px 3px 6px #02010a);
+  border: 2px solid black;
+}
+.paisaje1:hover{
+  transform: scale(2,2);
+}
+#temas {
+  text-align: center;
+  background-color: #d5c75f;
+  border: 1px;
+  padding: 20px;
+  text-shadow: 2px 2px 2px #02010a;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#titulo{
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  font-size: 18px;
+  background-color: #5b7989;
+}
+#paisajes {
+  float: left;
+  display: flex;
+  justify-content:center;
+  padding: 20px;
+  width: 50%;
+}
+#retratos {
+  float: right;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+}
+.paisaje {
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  border: 2px solid black;
+  filter: drop-shadow(3px 3px 6px #02010a);
+  transition: transform 2s;
+}
+.paisaje:hover{
+  transform: rotate(10deg);
+}
+.retrato {
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  filter: drop-shadow(3px 3px 6px #02010a);
+  border: 2px solid black;
+  transition: transform 2s;
+}
+.retrato:hover{
+  transform:translate(20px, 5px);
+}
+footer{
+  width: 940px;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  background-color: #C6d5c5;
+  padding: 15px 0;
+  color: black;
+  border-radius: 0 0 10px 10px;
+}
+.contacto{
+  width:30%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  padding:20px;
+}
+.icono{
+  width: 15px;
+}
+.correo{
+  color: black;
+}
+#galeria{
+  width:900px;
+  margin: 0;
+  padding: 20px;
+  background-color: #d5c75f;
+  display:flex;
+  flex-wrap:wrap;
+}
+.foto{
+  width:30%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+.paisaje1_1{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  filter: drop-shadow(3px 3px 6px #02010a);
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.paisaje2{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  filter: drop-shadow(3px 3px 6px #02010a);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.paisaje3{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  filter: drop-shadow(3px 3px 6px #02010a);
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+}
+.paisaje4{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  filter: drop-shadow(3px 3px 6px #02010a);
+  -webkit-filter: saturate(8);
+  filter: saturate(8);
+}
+.paisaje5{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  filter: drop-shadow(3px 3px 6px #02010a);
+  -webkit-filter: invert(70%);
+  filter: invert(70%);
+}
+.paisaje3_3{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  filter: drop-shadow(3px 3px 6px #02010a);
+  -webkit-filter:hue-rotate(90deg);
+  filter: hue-rotate(90deg);
+}
+.retrato1{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  -webkit-filter: grayscale(100%);
+  filter: drop-shadow(3px 3px 6px #02010a);
+}
+.retrato5{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  -webkit-filter: hue-rotate(90deg);
+  filter: drop-shadow(3px 3px 6px #02010a);
+}
+@media only screen (max-width: 640px){
+ body{width: 100%;
+ margin: 0 auto;}
+}
+@media (max-width:900px)
+{
+body{
+width: 100%;
+margin: 0 auto;
+}
+}
